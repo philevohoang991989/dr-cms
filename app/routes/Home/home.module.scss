@@ -1,0 +1,29 @@
+.app {
+  width: 100%s;
+  display: flex;
+  min-height: 100vh;
+  background: #f9fafb;
+  .content{
+    width: 100%;
+    .wrapperTable{
+      padding: 16px;
+      margin: 16px;
+      background-color: #fff;
+    }
+  }
+}
+.tableEmpty {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 24px;
+  // background-color: var(--neutral-bg-white);
+  border-radius: 16px;
+  height: 100%;
+  width: 100%;
+  padding-block: 80px;
+  img {
+    margin: auto;
+  }
+ 
+}

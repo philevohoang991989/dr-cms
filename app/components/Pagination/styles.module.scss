@@ -1,0 +1,32 @@
+.pagination{
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .totalItem{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    span{
+      color: #F26D21
+    }
+  }
+  .totalPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    .itemPage{
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      color: #475467;
+      cursor: pointer;
+      &.itemActive,&:hover{
+        background-color: #EDEEF1;
+        color: #1D2939;
+      }
+    }
+  }
+
+}

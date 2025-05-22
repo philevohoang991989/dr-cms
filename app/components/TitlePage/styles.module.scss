@@ -1,0 +1,13 @@
+.wrapperTitle{
+  display: flex;
+  padding: 0 16px;
+  align-items: center;
+  background-color: #fff;
+  height: 68px;
+  width: 100%;
+  border-bottom: 1px solid #EDEEF1;
+  .namePage{
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
